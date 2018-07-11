@@ -1,0 +1,771 @@
+data = {
+    'id': 27,
+    'description': 'Main',
+    'parent_id': 0,
+    'url': 'master',
+    'order': 2,
+    'conf': 'hdr',
+    'icon': 'heart',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 28,
+    'description': 'Party',
+    'parent_id': 27,
+    'url': 'party',
+    'order': 1,
+    'conf': 'li',
+    'icon': 'party',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 29,
+    'description': 'Product',
+    'parent_id': 0,
+    'url': 'productmaster',
+    'order': 4,
+    'conf': 'hdr',
+    'icon': 'cubes',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 30,
+    'description': 'Documents',
+    'parent_id': 0,
+    'url': 'documents',
+    'order': 3,
+    'conf': 'hdr',
+    'icon': 'folder',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 31,
+    'description': 'Sales',
+    'parent_id': 30,
+    'url': 'sales',
+    'order': 3,
+    'conf': 'li',
+    'icon': 'sales',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 32,
+    'description': 'Sales Invoice',
+    'parent_id': 31,
+    'url': 'invoice',
+    'order': 2,
+    'conf': 'li',
+    'icon': 'blank',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 37,
+    'description': 'Security',
+    'parent_id': 0,
+    'url': 'security',
+    'order': 6,
+    'conf': 'hdr',
+    'icon': 'key',
+    'isactive': 1,
+    'isoption': 1
+}, {
+    'id': 38,
+    'description': 'Access Level',
+    'parent_id': 37,
+    'url': 'accesslevel',
+    'order': 5,
+    'conf': 'li',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 39,
+    'description': 'Accounting',
+    'parent_id': 0,
+    'url': 'accounting',
+    'order': 5,
+    'conf': 'hdr',
+    'icon': 'suitcase',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 40,
+    'description': 'Chart of Account',
+    'parent_id': 39,
+    'url': 'chartofaccount',
+    'order': 3,
+    'conf': 'li',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 41,
+    'description': 'Party Type',
+    'parent_id': 28,
+    'url': 'partytype',
+    'order': 7,
+    'conf': 'li',
+    'icon': 'blank',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 42,
+    'description': 'Contact type',
+    'parent_id': 28,
+    'url': 'contacttype',
+    'order': 6,
+    'conf': 'li',
+    'icon': 'blank',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 43,
+    'description': 'Contact Class',
+    'parent_id': 28,
+    'url': 'contactclass',
+    'order': 5,
+    'conf': 'li',
+    'icon': 'blank',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 44,
+    'description': 'Address Type',
+    'parent_id': 28,
+    'url': 'addresstype',
+    'order': 4,
+    'conf': 'li',
+    'icon': 'blank',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 45,
+    'description': 'Person',
+    'parent_id': 28,
+    'url': 'person',
+    'order': 3,
+    'conf': 'li',
+    'icon': 'blank',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 46,
+    'description': 'Relationship',
+    'parent_id': 28,
+    'url': 'partyrelationship',
+    'order': 2,
+    'conf': 'li',
+    'icon': 'blank',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 47,
+    'description': 'Roletype',
+    'parent_id': 28,
+    'url': 'roletype',
+    'order': 1,
+    'conf': 'li',
+    'icon': 'blank',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 50,
+    'description': 'App module',
+    'parent_id': 37,
+    'url': 'appmodule',
+    'order': 4,
+    'conf': 'li',
+    'icon': 'shield',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 51,
+    'description': 'Group',
+    'parent_id': 37,
+    'url': 'group',
+    'order': 3,
+    'conf': 'li',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 52,
+    'description': 'Access',
+    'parent_id': 37,
+    'url': 'access',
+    'order': 2,
+    'conf': 'li',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 53,
+    'description': 'Group Access',
+    'parent_id': 37,
+    'url': 'groupaccess',
+    'order': 1,
+    'conf': 'li',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 54,
+    'description': 'Order',
+    'parent_id': 30,
+    'url': 'order',
+    'order': 2,
+    'conf': 'li',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 55,
+    'description': 'Sales Order',
+    'parent_id': 54,
+    'url': 'salesorder',
+    'order': 3,
+    'conf': 'li',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 56,
+    'description': 'Purchase Order',
+    'parent_id': 54,
+    'url': 'purchaseorder',
+    'order': 2,
+    'conf': 'li',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 57,
+    'description': 'Test only',
+    'parent_id': 0,
+    'url': 'error',
+    'order': 7,
+    'conf': 'hdr',
+    'icon': 'not-set',
+    'isactive': 0,
+    'isoption': 0
+}, {
+    'id': 58,
+    'description': '1 - level1',
+    'parent_id': 57,
+    'url': 'error',
+    'order': 1,
+    'conf': 'li',
+    'icon': 'not-set',
+    'isactive': 0,
+    'isoption': 0
+}, {
+    'id': 59,
+    'description': '1 - level 2',
+    'parent_id': 58,
+    'url': 'error',
+    'order': 0,
+    'conf': 'hdr',
+    'icon': 'not-set',
+    'isactive': 0,
+    'isoption': 0
+}, {
+    'id': 60,
+    'description': '1 - level 3',
+    'parent_id': 59,
+    'url': 'error',
+    'order': 1,
+    'conf': 'li',
+    'icon': 'not-set',
+    'isactive': 0,
+    'isoption': 0
+}, {
+    'id': 61,
+    'description': 'Accounting Period',
+    'parent_id': 39,
+    'url': 'acctgperiod',
+    'order': 2,
+    'conf': 'li',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 62,
+    'description': 'Organizational Account',
+    'parent_id': 39,
+    'url': 'orgglaccount',
+    'order': 1,
+    'conf': 'li',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 63,
+    'description': 'Location',
+    'parent_id': 27,
+    'url': 'location',
+    'order': 2,
+    'conf': 'li',
+    'icon': 'location-1',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 64,
+    'description': 'Brand',
+    'parent_id': 29,
+    'url': 'brand',
+    'order': 4,
+    'conf': 'li',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 65,
+    'description': 'Unit of measure',
+    'parent_id': 29,
+    'url': 'unitofmeasure',
+    'order': 3,
+    'conf': 'li',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 66,
+    'description': 'Product type',
+    'parent_id': 29,
+    'url': 'producttype',
+    'order': 2,
+    'conf': 'li',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 67,
+    'description': 'Product',
+    'parent_id': 29,
+    'url': 'product',
+    'order': 1,
+    'conf': 'li',
+    'icon': 'accounting',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 68,
+    'description': 'Area',
+    'parent_id': 63,
+    'url': 'area',
+    'order': 2,
+    'conf': 'li',
+    'icon': 'blank',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 69,
+    'description': 'Location Type',
+    'parent_id': 63,
+    'url': 'locationtype',
+    'order': 1,
+    'conf': 'li',
+    'icon': 'blank',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 70,
+    'description': 'Purchase',
+    'parent_id': 30,
+    'url': 'purchase',
+    'order': 1,
+    'conf': 'li',
+    'icon': 'purchase',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 71,
+    'description': 'Purchase Order',
+    'parent_id': 70,
+    'url': 'order',
+    'order': 2,
+    'conf': 'li',
+    'icon': 'blank',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 72,
+    'description': 'Purchase Invoice',
+    'parent_id': 70,
+    'url': 'invoice',
+    'order': 1,
+    'conf': 'li',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 73,
+    'description': 'Sales Order',
+    'parent_id': 31,
+    'url': 'order',
+    'order': 1,
+    'conf': 'li',
+    'icon': 'blank',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 74,
+    'description': 'Limit Header Detail',
+    'parent_id': 54,
+    'url': 'limitheaderdetail',
+    'order': 1,
+    'conf': 'li',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 75,
+    'description': 'Home',
+    'parent_id': 0,
+    'url': 'home',
+    'order': 1,
+    'conf': 'hdr',
+    'icon': 'home',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 76,
+    'description': 'Daily time record',
+    'parent_id': 75,
+    'url': 'dtr',
+    'order': 1,
+    'conf': 'vo',
+    'icon': 'time-and-calendar',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 77,
+    'description': 'My profile',
+    'parent_id': 75,
+    'url': 'myprofile',
+    'order': 2,
+    'conf': 'vo',
+    'icon': 'profile-i',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 78,
+    'description': 'Scheduling',
+    'parent_id': 0,
+    'url': 'scheduling',
+    'order': 8,
+    'conf': 'hdr',
+    'icon': 'clock-o',
+    'isactive': 1,
+    'isoption': 1
+}, {
+    'id': 79,
+    'description': 'Branch Assignment',
+    'parent_id': 78,
+    'url': 'branchassignment',
+    'order': 1,
+    'conf': 'vo',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 80,
+    'description': 'Account',
+    'parent_id': 75,
+    'url': 'account',
+    'order': 3,
+    'conf': 'vo',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 81,
+    'description': 'Notification',
+    'parent_id': 75,
+    'url': 'notification',
+    'order': 4,
+    'conf': 'vo',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 82,
+    'description': 'Payslip',
+    'parent_id': 75,
+    'url': 'payslip',
+    'order': 5,
+    'conf': 'vo',
+    'icon': 'payslip',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 83,
+    'description': 'Schedule',
+    'parent_id': 75,
+    'url': 'schedule',
+    'order': 6,
+    'conf': 'vo',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 84,
+    'description': 'Application',
+    'parent_id': 75,
+    'url': 'application',
+    'order': 7,
+    'conf': 'vo',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 85,
+    'description': 'Adjustment',
+    'parent_id': 84,
+    'url': 'adjustment',
+    'order': 1,
+    'conf': 'vo',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 86,
+    'description': 'Leave',
+    'parent_id': 84,
+    'url': 'leave',
+    'order': 2,
+    'conf': 'vo',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 87,
+    'description': 'Love',
+    'parent_id': 0,
+    'url': 'love',
+    'order': 9,
+    'conf': 'vo',
+    'icon': 'coffee',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 88,
+    'description': 'Me only',
+    'parent_id': 87,
+    'url': 'meonly',
+    'order': 1,
+    'conf': 'li',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 89,
+    'description': 'Category Level',
+    'parent_id': 29,
+    'url': 'categorylevel',
+    'order': 5,
+    'conf': 'li',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 90,
+    'description': 'Category',
+    'parent_id': 29,
+    'url': 'category',
+    'order': 11,
+    'conf': 'li',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 91,
+    'description': 'Receiving Report',
+    'parent_id': 70,
+    'url': 'receivingreport',
+    'order': 3,
+    'conf': 'li',
+    'icon': 'blank',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 93,
+    'description': 'Product UOM',
+    'parent_id': 29,
+    'url': 'productuom',
+    'order': 6,
+    'conf': 'li',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 94,
+    'description': 'Trade Conf',
+    'parent_id': 29,
+    'url': 'tradeconfiguration',
+    'order': 7,
+    'conf': 'li',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 95,
+    'description': 'Tax',
+    'parent_id': 29,
+    'url': 'tax',
+    'order': 8,
+    'conf': 'li',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 96,
+    'description': 'VAT type',
+    'parent_id': 29,
+    'url': 'vattype',
+    'order': 9,
+    'conf': 'li',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 97,
+    'description': 'Product Tax Conf',
+    'parent_id': 29,
+    'url': 'producttaxconfiguration',
+    'order': 10,
+    'conf': 'li',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 98,
+    'description': 'Doc Config',
+    'parent_id': 30,
+    'url': 'documentconfiguration',
+    'order': 4,
+    'conf': 'li',
+    'icon': 'config-doc',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 104,
+    'description': 'Price book',
+    'parent_id': 29,
+    'url': 'pricebook',
+    'order': 12,
+    'conf': 'li',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 105,
+    'description': 'Costing',
+    'parent_id': 29,
+    'url': 'costing',
+    'order': 13,
+    'conf': 'li',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 106,
+    'description': 'HDR DTL V2',
+    'parent_id': 31,
+    'url': 'samplehdrdtl',
+    'order': 5,
+    'conf': 'vo',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 107,
+    'description': 'Scheduler',
+    'parent_id': 78,
+    'url': 'scheduler',
+    'order': 2,
+    'conf': 'vo',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 108,
+    'description': 'Organization',
+    'parent_id': 28,
+    'url': 'organization',
+    'order': 8,
+    'conf': 'li',
+    'icon': 'blank',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 109,
+    'description': 'Mini game',
+    'parent_id': 75,
+    'url': 'minigame',
+    'order': 9,
+    'conf': 'vo',
+    'icon': 'not-set',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 110,
+    'description': 'Phonebook',
+    'parent_id': 0,
+    'url': 'phonebook',
+    'order': 10,
+    'conf': 'hdr',
+    'icon': 'lock',
+    'isactive': 0,
+    'isoption': 0
+}, {
+    'id': 115,
+    'description': 'User Login Info',
+    'parent_id': 37,
+    'url': 'userlogininfo',
+    'order': 6,
+    'conf': 'li',
+    'icon': 'blank',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 193,
+    'description': 'phonebook1',
+    'parent_id': 110,
+    'url': 'phonebook1',
+    'order': 0,
+    'conf': 'li',
+    'icon': 'blank',
+    'isactive': 0,
+    'isoption': 0
+}, {
+    'id': 195,
+    'description': 'Sample',
+    'parent_id': 0,
+    'url': 'sampletest1',
+    'order': 11,
+    'conf': 'hdr',
+    'icon': 'cloud',
+    'isactive': 0,
+    'isoption': 1
+}, {
+    'id': 203,
+    'description': 'Sample2',
+    'parent_id': 195,
+    'url': 'Sample2',
+    'order': 0,
+    'conf': 'li',
+    'icon': 'blank',
+    'isactive': 1,
+    'isoption': 0
+}, {
+    'id': 206,
+    'description': 'test123',
+    'parent_id': 193,
+    'url': 'test123',
+    'order': 0,
+    'conf': 'li',
+    'icon': 'blank',
+    'isactive': 0,
+    'isoption': 0
+}
